@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <%# HTML tag link to external style.css file saved in the folder ./public/stylesheets %>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>login</title>
+</head>
+<body>
+    <br>
+    <header><h3 class="margin1, fnt-clr">Login page:</h3></header>
+    <br>
+    <form action = "/login" method = "POST">
+    <label for="emailAddress" class="margin1">Email:</label> 
+    <input class="margin2" type="email" id="emailAddress" name="email" placeholder="Email address" required autofocus size="50" minlength="3" maxlength="64">
+    <br>
+    <br>
+    <label class="margin1">User Name:</label>  
+        <input class="margin3" name = "name" type = "text" required placeholder = "User Name" size="50" minlength="3" maxlength="64">
+    <br>
+    <br>
+    <label for="userPassword" class="margin1">Password:</label> 
+        <input class="margin4" id="userPassword" name = "password" type = "password" required placeholder = "Password" autocomplete="current-password" minlength="9" maxlength="12">
+    <br>
+    <br>
+    <div class="margin1"><button type = "Submit">Login</button>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://localhost:3000/signup">Signup</a></div>
+    <br>
+</body>
+</html>
