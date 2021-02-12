@@ -1,5 +1,5 @@
 {
-  "name": "Error-loggable-back-end-structure",
+  "name": "Secured-on-every-request-and-error-loggable-back-end-structure",
   "version": "0.0.0",
   "private": true,
   "scripts": {
