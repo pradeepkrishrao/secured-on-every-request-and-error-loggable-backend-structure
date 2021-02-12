@@ -1,0 +1,48 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.margin1 {
+	float: left;
+	margin-left: 10%;
+	padding: 0px;
+	border: 0px;
+	color: "teal";
+}
+.margin2 {
+	float: left;
+	margin-left: 10%;
+	padding: 0px;
+	padding: 0px;	
+}
+.margin3 {
+	float: left;
+	margin-left: 7%;
+	padding: 0px;
+	padding: 0px;	
+}
+.margin4 {
+	float: left;
+	margin-left: 8%;
+	padding: 0px;
+	padding: 0px;	
+}
+.margin5 {
+	float: left;
+	margin-left: 25%;
+	padding: 0px;
+	padding: 0px;	
+}
+.fnt-colr {
+	float: left;
+	margin-left: 10%;
+	padding: 0px;
+	border: 0px;
+	color: "teal";
+	font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
