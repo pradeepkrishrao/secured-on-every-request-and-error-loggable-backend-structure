@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <%# HTML tag link to external style.css file saved in the folder ./public/stylesheets %>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>loginDetail_page</title>
+</head>
+<body>
+    <h5 class="margin5, fnt-clr"> Hi, <%= name %> you are logged in with the following login details: <ul><li>Email: <%= email %></li><li>Name: <%= name %></li><li>Password: <%= password %></li></ul></h5>
+    <a href = "http://localhost:3000/logout" class="fnt-clr">logout</a>
+</body>
+</html>
